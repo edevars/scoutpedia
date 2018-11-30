@@ -1,0 +1,28 @@
+@import './palette';
+@import './fonts';
+
+.head {
+    background-image: linear-gradient(to right,$color1 , $color2);
+    width: 100%;
+  .second {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    img{
+        margin-left: 0.5rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-bottom: 0;
+        
+    }
+  }
+  h3,
+  a {
+    font-family: $font1;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+}

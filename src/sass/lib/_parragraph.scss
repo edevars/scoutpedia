@@ -1,0 +1,16 @@
+@import './palette';
+@import './fonts';
+
+.parragraph{
+    font-family: $font2;
+    width: 85%;
+    margin: 0px auto;
+    h3{
+        color: $color2;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+    p{
+        text-align: justify;
+    }
+}

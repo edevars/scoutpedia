@@ -1,0 +1,29 @@
+@import './fonts';
+
+.hero{
+    
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+    img{
+        width: 100%;
+        
+    }
+    h1{
+        font-family: $font4;
+        font-size: 8.5vw;
+        margin: 0px;
+        padding: 0px;
+        font-weight: lighter;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}

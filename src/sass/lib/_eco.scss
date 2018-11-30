@@ -1,0 +1,36 @@
+@import './palette';
+@import './fonts';
+
+.eco{
+    font-family: $font2;
+    background-color: $color5;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    h3{
+        font-family: $font3;
+        color: $color4;
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    p{
+        text-align: justify;
+        padding: 0 30px;
+    }
+    .leaf{
+        margin: 0 auto;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+}
+
+footer{
+    height: 8rem;
+    background-color: $color2;
+}
